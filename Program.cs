@@ -62,8 +62,8 @@ namespace Exercise5
         static void Main(string[] args)
         {
             Queue q = new Queue();
-            q.enqueue(10);
-
+            q.insert(10);
+            q.insert(20);
         }
     }
 }
