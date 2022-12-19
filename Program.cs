@@ -54,6 +54,24 @@ namespace Exercise5
                 this.mubaroq = null;
 
         }
+        public void display()
+        {
+            
+            node current = muhammad;
+
+            if (muhammad == null)
+            {
+                Console.WriteLine("List is empty");
+                return;
+            }
+            Console.WriteLine("Nodes of exercise5: ");
+            while (current != null)
+            { 
+                Console.Write(current.key + " ");
+                current = current.next;
+            }
+            Console.WriteLine();
+        }
 
     }
 
@@ -64,6 +82,10 @@ namespace Exercise5
             Queue q = new Queue();
             q.insert(10);
             q.insert(20);
+            q.delete();
+            q.delete();
+            q.insert(30);
+            q.insert
         }
     }
 }
