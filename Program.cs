@@ -36,6 +36,22 @@ namespace Exercise5
                 this.muhammad = this.mubaroq = temp;
                 return;
             }
+
+            // tambah node baru ke akhir urutan dan ubah mubaroq
+            this.mubaroq.next = temp;
+            this.mubaroq = temp;
+        }
+
+        // metode untuk menghapus key dari queue
+        public void delete()
+        {
+            // jika queue kosong, return jd null
+            if (this.muhammad == null)
+                return;
+            this.muhammad = this.muhammad.next;
+
+            if(this.muhammad == null)
+
         }
 
     }
