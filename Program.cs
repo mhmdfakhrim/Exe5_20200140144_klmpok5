@@ -50,15 +50,19 @@ namespace Exercise5
                 return;
             this.muhammad = this.muhammad.next;
 
-            if(this.muhammad == null)
+            if (this.muhammad == null)
+                this.mubaroq = null;
 
         }
 
     }
-    internal class Program
+
+    public class test
     {
         static void Main(string[] args)
         {
+            Queue q = new Queue();
+
         }
     }
 }
